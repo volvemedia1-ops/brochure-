@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBF | Brochure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <meta property="og:site_name" content="Credit Builder Flow">
+    <meta property="og:title" content="Credit Builder Flow | Brochure">
+    <meta property="og:description" content="30-40% of your leads are declined due to credit. Stop the leak.">
+    <meta property="og:image" content="YOUR_LOGO_URL_HERE">
+    <meta property="og:type" content="website">
+    
+    <style>
+        /* Custom Variables */
+        :root {
+            --cbf-navy: #1A365D; --cbf-purple: #7C3AED; --cbf-white: #FFFFFF;
+            --cbf-light: #F8FAFC; --cbf-green: #10B981; --cbf-dark-bg: #0F172A;
+        }
+        body { font-family: 'Inter', sans-serif; overflow-x: hidden; }
+
+        /* FOOTER STYLES */
+        .cbf-footer-wrapper { position: relative; margin-top: 0; width: 100%; font-family: 'Inter', sans-serif; }
+        .cbf-wave-divider { position: absolute; top: -100px; left: 0; width: 100%; height: 101px; line-height: 0; z-index: 1; }
+        .cbf-wave-divider svg { position: relative; display: block; width: calc(100% + 1.3px); height: 100px; }
+        .cbf-footer-new { background: linear-gradient(to bottom, #1A365D 0%, #0F172A 100%); color: white; padding: 40px 20px 60px 20px; position: relative; z-index: 2; }
+        .cbf-footer-inner { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 50px; max-width: 1200px; margin: 0 auto; }
+        .cbf-footer-col h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 1.5rem; margin-bottom: 25px; position: relative; display: inline-block; }
+        .cbf-footer-col h3::after { content: ''; display: block; width: 40px; height: 3px; background: var(--cbf-purple); margin-top: 8px; border-radius: 2px; }
+        .cbf-footer-link { color: #cbd5e1; display: block; margin-bottom: 12px; transition: all 0.3s ease; position: relative; text-decoration: none; }
+        .cbf-footer-link:hover { color: white; padding-left: 10px; }
+        .cbf-footer-link:hover::before { content: '›'; position: absolute; left: -10px; color: var(--cbf-purple); font-weight: bold; }
+        .cbf-social-container { display: flex; gap: 15px; }
+        .cbf-social-btn { width: 45px; height: 45px; border-radius: 50%; background: rgba(255, 255, 255, 0.1); display: flex; align-items: center; justify-content: center; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); color: white; border: 1px solid transparent; }
+        .cbf-social-btn svg { width: 22px; height: 22px; fill: currentColor; }
+        .cbf-social-btn:hover { background: var(--cbf-purple); transform: scale(1.1) rotate(5deg); border-color: rgba(255,255,255,0.2); box-shadow: 0 0 15px rgba(124, 58, 237, 0.6); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <div class="py-20 px-6 md:px-12">
+        <div class="max-w-5xl mx-auto">
+            
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight leading-tight text-slate-900 mb-12 text-center md:text-left">
+                30-40% of your leads are declined due to credit.<br>
+                <span class="text-red-600">Most dealerships treat this as "business as usual."</span>
+            </h1>
+
+            <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center mb-12">
+                
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 text-center md:text-left">
+                    <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-2">The Leak</p>
+                    <div class="text-6xl md:text-7xl font-bold text-slate-900 mb-2">40<span class="text-red-600">%</span></div>
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                        Of potential buyers walk out your door because the bank said no. Without a system, they are gone forever.
+                    </p>
+                </div>
+
+                <div class="space-y-8">
+                    <div class="flex gap-5">
+                        <div class="shrink-0 w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center font-bold text-xl">
+                            $
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block text-lg mb-1">The Ad Spend Trap</strong>
+                            <p class="text-slate-600 leading-relaxed">
+                                You paid to acquire that customer. When they walk out, that acquisition cost becomes 100% waste.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-5">
+                        <div class="shrink-0 w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center font-bold text-xl">
+                            !
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block text-lg mb-1">Staff Burnout</strong>
+                            <p class="text-slate-600 leading-relaxed">
+                                Your team wastes hours on borderline applicants. Inconsistent follow-up guarantees they buy elsewhere later.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-8 pt-8 border-t border-slate-200">
+                <p class="text-lg md:text-xl font-medium text-slate-800 text-center">
+                    Translation: <span class="text-red-600 font-bold">Lost sales. Wasted ad spend. Lower morale.</span>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bg-white py-20 px-6 md:px-12 border-t border-slate-100">
+        <div class="max-w-4xl mx-auto">
+            
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-12 text-center leading-tight">
+                The problem isn’t the rejection.<br>
+                It’s the <span class="text-blue-600">structural dead end</span> that follows.
+            </h2>
+
+            <div class="relative border-l-4 border-slate-200 ml-4 md:ml-10 space-y-12 pl-8 py-4">
+                
+                <div class="relative">
+                    <span class="absolute -left-11 top-1 w-6 h-6 rounded-full bg-slate-300 border-4 border-white"></span>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">The Process Stops</h3>
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                        Most dealerships have a clear process up to bank submission. After a decline, that process simply ends. The customer is told to "figure it out."
+                    </p>
+                </div>
+
+                <div class="relative">
+                    <span class="absolute -left-11 top-1 w-6 h-6 rounded-full bg-red-400 border-4 border-white"></span>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">The Decay Set In</h3>
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                        Without structure, time passes and motivation fades. Even if they <em>could</em> get approved in 60 days, they’ve already drifted away or bought a cheap cash car elsewhere.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="mt-16 bg-blue-50 rounded-xl p-8 border border-blue-100 text-center">
+                <p class="text-lg md:text-xl font-medium text-slate-800">
+                    What’s missing is a <span class="text-blue-600 font-bold">lightweight, dealer-safe system</span> that keeps declined buyers progressing instead of disappearing.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bg-slate-50 py-20 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto">
+            
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+                    How it fits without disrupting your floor
+                </h2>
+                <p class="text-slate-500 max-w-2xl mx-auto text-lg">
+                    A closed loop system that operates entirely outside your finance office.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                
+                <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm relative group hover:-translate-y-1 transition-transform duration-300">
+                    <span class="absolute top-6 right-6 text-6xl font-bold text-slate-100 -z-0">01</span>
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 bg-slate-100 text-slate-600 rounded-lg flex items-center justify-center mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Your Team Refers</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            They hand off the decline to the portal. That is their only job. They return to selling cars immediately.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-blue-600 p-8 rounded-xl shadow-lg relative text-white hover:-translate-y-1 transition-transform duration-300 transform md:scale-105">
+                    <span class="absolute top-6 right-6 text-6xl font-bold text-blue-500 -z-0">02</span>
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 bg-blue-500 text-white rounded-lg flex items-center justify-center mb-6 shadow-inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.157.921c.448.1.89.25 1.314.444l.84-.46a1.125 1.125 0 011.37.228l.772.772a1.125 1.125 0 01.228 1.37l-.46.84c.193.425.344.867.443 1.314l.922.157c.541.09.939.56.939 1.11v1.093c0 .55-.398 1.02-.94 1.11l-.921.157c-.1.448-.25.89-.444 1.314l.46.84a1.125 1.125 0 01-.228 1.37l-.772.772a1.125 1.125 0 01-1.37.228l-.84-.46c-.425.193-.867.344-1.314.443l-.157.922c-.09.541-.56.939-1.11.939h-1.093c-.55 0-1.02-.398-1.11-.94l-.157-.921c-.448-.1-.89-.25-1.314-.444l-.84.46a1.125 1.125 0 01-1.37-.228l-.772-.772a1.125 1.125 0 01-.228-1.37l.46-.84a9.61 9.61 0 01-.443-1.314l-.922-.157a1.125 1.125 0 01-.939-1.11V9.25c0-.55.398 1.02.94-1.11l.921-.157c.1-.448.25-.89.444-1.314l-.46-.84a1.125 1.125 0 01.228-1.37l.772-.772a1.125 1.125 0 011.37-.228l.84.46c.425-.193.867-.344 1.314-.443l.157-.922z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">We Handle The Fix</h3>
+                        <p class="text-blue-100 leading-relaxed">
+                            We operate outside your walls. We manage the education, the <strong class="text-white border-b border-blue-400 pb-0.5">repairing</strong>, and the tracking.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm relative group hover:-translate-y-1 transition-transform duration-300">
+                    <span class="absolute top-6 right-6 text-6xl font-bold text-slate-100 -z-0">03</span>
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Customer Returns</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            If they are serious, their score improves. If not, your team wasted zero additional time.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-12 text-center">
+                <p class="text-sm text-slate-500 italic">
+                    * No interference with your current F&I process. No guarantees of approval.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bg-slate-900 text-white py-24 px-6 md:px-12 relative overflow-hidden">
+        
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-4xl bg-blue-900/20 blur-[100px] -z-0 pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto relative z-10">
+            
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
+                    The Cost of Inaction
+                </h2>
+                <p class="text-slate-400 max-w-2xl mx-auto text-lg">
+                    There are only two ways to handle a declined application.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-0 border border-slate-700 rounded-2xl overflow-hidden bg-slate-800/50 backdrop-blur-sm">
+                
+                <div class="p-8 md:p-12 md:border-r border-slate-700 flex flex-col justify-between opacity-80 hover:opacity-100 transition-opacity">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-300 mb-1">The Current Process</h3>
+                        <p class="text-sm text-slate-500 uppercase tracking-widest font-semibold mb-8">"Doing Nothing"</p>
+                        
+                        <ul class="space-y-8">
+                            <li class="flex gap-4">
+                                <div class="shrink-0 w-8 h-8 bg-red-900/30 text-red-500 rounded-full flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                                </div>
+                                <div>
+                                    <strong class="block text-slate-200">0% Recovery Rate</strong>
+                                    <span class="text-sm text-slate-500">Declined leads are abandoned immediately.</span>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <div class="shrink-0 w-8 h-8 bg-red-900/30 text-red-500 rounded-full flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                                </div>
+                                <div>
+                                    <strong class="block text-slate-200">Wasted Sales Time</strong>
+                                    <span class="text-sm text-slate-500">Staff chases "dead ends" with no structured path.</span>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <div class="shrink-0 w-8 h-8 bg-red-900/30 text-red-500 rounded-full flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                                </div>
+                                <div>
+                                    <strong class="block text-slate-200">Compliance Risk</strong>
+                                    <span class="text-sm text-slate-500">No audit trail for advice given to rejected clients.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="p-8 md:p-12 bg-blue-900/10 relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-blue-600"></div>
+                    
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-1">Credit Builder Flow</h3>
+                        <p class="text-sm text-blue-400 uppercase tracking-widest font-semibold mb-8">Recommended Path</p>
+                        
+                        <ul class="space-y-8">
+                            <li class="flex gap-4">
+                                <div class="shrink-0 w-8 h-8 bg-green-900/30 text-green-400 rounded-full flex items-center justify-center shadow-[0_0_15px_rgba(74,222,128,0.2)]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+                                </div>
+                                <div>
+                                    <strong class="block text-white">Recovers 10-15% of Pipeline</strong>
+                                    <span class="text-sm text-blue-200">Turn "Dead Deals" into future approvals.</span>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <div class="shrink-0 w-8 h-8 bg-green-900/30 text-green-400 rounded-full flex items-center justify-center shadow-[0_0_15px_rgba(74,222,128,0.2)]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+                                </div>
+                                <div>
+                                    <strong class="block text-white">Zero Extra Admin</strong>
+                                    <span class="text-sm text-blue-200">Hand off the lead -> We handle the rest.</span>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <div class="shrink-0 w-8 h-8 bg-green-900/30 text-green-400 rounded-full flex items-center justify-center shadow-[0_0_15px_rgba(74,222,128,0.2)]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+                                </div>
+                                <div>
+                                    <strong class="block text-white">Fully Compliant</strong>
+                                    <span class="text-sm text-blue-200">POPIA Safe. Audit-ready. Risk-free.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bg-slate-50 py-24 px-6 md:px-12 border-t border-slate-200">
+        <div class="max-w-3xl mx-auto">
+            
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">
+                    Common Questions from Principals & GMs
+                </h2>
+                <p class="text-slate-500">
+                    Straight answers to the operational questions you care about.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+
+                <details class="group bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none bg-white group-open:bg-blue-50/50 transition-colors">
+                        <span class="font-bold text-lg text-slate-800">So how does CBF actually help improve approval chances?</span>
+                        <span class="ml-4 flex-shrink-0 w-8 h-8 flex items-center justify-center bg-slate-100 rounded-full text-slate-500 transition-all duration-300 group-open:bg-blue-600 group-open:text-white group-open:rotate-45">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-8 pt-2 text-slate-600 leading-relaxed bg-white border-t border-slate-100/50">
+                        CBF works by identifying the specific areas in a customer’s financial profile that commonly trigger declines. We help them address those issues in a structured way outside of your dealership. This improves readiness and reduces unnecessary rejections—but final approval always rests with the lender.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none bg-white group-open:bg-blue-50/50 transition-colors">
+                        <span class="font-bold text-lg text-slate-800">Does this add work for my sales or finance team?</span>
+                        <span class="ml-4 flex-shrink-0 w-8 h-8 flex items-center justify-center bg-slate-100 rounded-full text-slate-500 transition-all duration-300 group-open:bg-blue-600 group-open:text-white group-open:rotate-45">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-8 pt-2 text-slate-600 leading-relaxed bg-white border-t border-slate-100/50">
+                        <strong class="text-blue-600">No.</strong> Your team’s role is limited to offering a referral link. All onboarding, communication, education, and follow-up happen entirely outside the dealership. Your F&I office stays focused on deals that can close today.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none bg-white group-open:bg-blue-50/50 transition-colors">
+                        <span class="font-bold text-lg text-slate-800">Are you guaranteeing approvals or outcomes?</span>
+                        <span class="ml-4 flex-shrink-0 w-8 h-8 flex items-center justify-center bg-slate-100 rounded-full text-slate-500 transition-all duration-300 group-open:bg-blue-600 group-open:text-white group-open:rotate-45">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-8 pt-2 text-slate-600 leading-relaxed bg-white border-t border-slate-100/50">
+                        No. Credit approvals depend on multiple factors outside anyone’s control. CBF provides structure and direction—not guarantees. We are transparent about this with every client to protect your reputation.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none bg-white group-open:bg-blue-50/50 transition-colors">
+                        <span class="font-bold text-lg text-slate-800">When does this get introduced to the customer?</span>
+                        <span class="ml-4 flex-shrink-0 w-8 h-8 flex items-center justify-center bg-slate-100 rounded-full text-slate-500 transition-all duration-300 group-open:bg-blue-600 group-open:text-white group-open:rotate-45">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-8 pt-2 text-slate-600 leading-relaxed bg-white border-t border-slate-100/50">
+                        Only after a formal decline, once your existing finance process has run its course. This ensures we never interfere with a deal that you could have closed yourself.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none bg-white group-open:bg-blue-50/50 transition-colors">
+                        <span class="font-bold text-lg text-slate-800">What happens if a customer doesn’t follow through?</span>
+                        <span class="ml-4 flex-shrink-0 w-8 h-8 flex items-center justify-center bg-slate-100 rounded-full text-slate-500 transition-all duration-300 group-open:bg-blue-600 group-open:text-white group-open:rotate-45">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-8 pt-2 text-slate-600 leading-relaxed bg-white border-t border-slate-100/50">
+                        Nothing changes for the dealership. Participation is opt-in for the customer. If they drop out, you lost nothing because the lead was already "dead" before we started.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none bg-white group-open:bg-blue-50/50 transition-colors">
+                        <span class="font-bold text-lg text-slate-800">Will this reflect poorly on our dealership?</span>
+                        <span class="ml-4 flex-shrink-0 w-8 h-8 flex items-center justify-center bg-slate-100 rounded-full text-slate-500 transition-all duration-300 group-open:bg-blue-600 group-open:text-white group-open:rotate-45">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-8 pt-2 text-slate-600 leading-relaxed bg-white border-t border-slate-100/50">
+                        CBF is positioned as a <em class="italic">supportive next step</em> ("We have a partner who can help you fix this"), rather than a rejection. Customers usually appreciate the guidance rather than just being told "No."
+                    </div>
+                </details>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-slate-50 py-24 px-6 md:px-12 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto">
+            
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6 tracking-tight">
+                    Explore Whether This Fits Your Dealership
+                </h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                    If post-decline buyers regularly leave your floor with no clear path back, this conversation will help determine whether a structured pathway makes sense for your operation.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-2xl shadow-blue-900/10 border border-slate-100 overflow-hidden max-w-2xl mx-auto relative group">
+                
+                <div class="bg-gradient-to-r from-slate-900 to-blue-900 p-8 text-center relative overflow-hidden">
+                    <div class="absolute inset-0 bg-white/5 opacity-50"></div>
+                    
+                    <h3 class="text-2xl font-bold text-white mb-2 relative z-10">15-Minute Dealer Strategy Call</h3>
+                    <p class="text-blue-200 text-sm uppercase tracking-widest font-semibold relative z-10">No Obligations • Pure Strategy</p>
+                </div>
+
+                <div class="p-8 md:p-12">
+                    <p class="text-slate-700 font-medium mb-8 text-center md:text-left text-lg">In this short call, we’ll:</p>
+                    
+                    <ul class="space-y-5 mb-12">
+                        <li class="flex items-start gap-4">
+                            <div class="mt-1 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0 border border-green-200">
+                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            </div>
+                            <span class="text-slate-600 text-lg">Walk through how a post-decline pathway fits alongside your current finance process</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="mt-1 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0 border border-green-200">
+                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            </div>
+                            <span class="text-slate-600 text-lg">Clarify what your team would (and would not) be responsible for</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="mt-1 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0 border border-green-200">
+                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            </div>
+                            <span class="text-slate-600 text-lg">Decide whether CBF is a practical fit for your dealership</span>
+                        </li>
+                    </ul>
+
+                    <div class="text-center relative">
+                        <div class="absolute -inset-1 bg-blue-500 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-200"></div>
+                        
+                        <a href="https://calendly.com/volve-media/credit-builder-flow" target="_blank" class="relative block w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 px-8 rounded-lg shadow-lg transition-all duration-200 transform hover:-translate-y-0.5 text-lg">
+                            👉 Book a 15-minute strategy call
+                        </a>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-slate-100 text-center flex justify-center items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-slate-400">
+                          <path fill-rule="evenodd" d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z" clip-rule="evenodd" />
+                        </svg>
+                        <p class="text-xs text-slate-500 italic max-w-sm">
+                            <span class="font-bold text-slate-700">Capacity Note:</span>
+                            We limit onboarding to ensure hands-on implementation.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="text-center mt-16 text-slate-400 text-sm">
+                &copy; 2026 Credit Builder Flow. All rights reserved.
+            </div>
+
+        </div>
+    </div>
+
+    <div class="cbf-footer-wrapper">
+        <div class="cbf-wave-divider"><svg viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="#1A365D" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg></div>
+        <footer class="cbf-footer-new">
+            <div class="cbf-container cbf-footer-inner">
+                <div class="cbf-footer-col">
+                    <h3>Credit Builder Flow</h3>
+                    <div class="cbf-social-container">
+                        <a href="https://www.facebook.com/CreditBuilderFlow" target="_blank" class="cbf-social-btn"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="https://www.instagram.com/creditbuilderflow/" target="_blank" class="cbf-social-btn"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    </div>
+                </div>
+                <div class="cbf-footer-col">
+                    <h3>Quick Links</h3>
+                    <a href="https://www.creditbuilderflow.co.za/cbf-home" class="cbf-footer-link">Home</a>
+                    <a href="https://www.creditbuilderflow.co.za/phases" class="cbf-footer-link">Diagnostic Audit</a>
+                    <a href="https://www.creditbuilderflow.co.za/phases" class="cbf-footer-link">Strategy & Execution</a>
+                    <a href="https://www.creditbuilderflow.co.za/pricing" class="cbf-footer-link">Pricing</a>
+                </div>
+                <div class="cbf-footer-col">
+                    <h3>Contact Us</h3>
+                    <a href="mailto:help@creditbuilder.co.za" class="cbf-footer-link">help@creditbuilder.co.za</a>
+                    <a href="#" class="cbf-footer-link">Privacy Policy</a>
+                    <a href="#" class="cbf-footer-link">Terms of Service</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
